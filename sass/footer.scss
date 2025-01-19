@@ -1,0 +1,36 @@
+.footer {
+  background-image: url(/img/fem-stars.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 0;
+  color: white;
+
+  // resetting the svg size
+  a svg {
+    width: 3rem;
+    height: 3rem;
+    fill: white;
+
+    &:hover {
+      fill: var(--color-Green);
+    }
+  }
+
+  &__container {
+    max-width: 120rem;
+    margin: 0 auto;
+
+    text-align: center;
+
+    // ul styling
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      margin: 5rem 0;
+    }
+  }
+}
