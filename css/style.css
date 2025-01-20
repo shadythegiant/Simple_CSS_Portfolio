@@ -255,6 +255,19 @@ h5 {
     font-size: var(--h2);
   }
 }
+.hidden {
+  opacity: 0;
+  filter: blur(3px);
+  transform: translateX(-100%);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 .contact {
   background-image: url(/img/fem-aurora.jpg);
   background-position: center center;

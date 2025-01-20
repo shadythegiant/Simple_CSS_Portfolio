@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="script.js"></script>
     <title>My Portfolio</title>
   </head>
   <body>
     <!-- -------------------------- Intro section ---------------------------  -->
     <section class="intro">
-      <header class="intro__header">
+      <header class="intro__header hidden" id="animatedEL">
         <div class="intro__header--name">
           <h1>
             <a href="index.html" aria-label="Click for home.">
@@ -67,7 +68,7 @@
         </nav>
       </header>
       <!-- -------------------------- Intro container -------------------------  -->
-      <div class="intro__container">
+      <div class="intro__container hidden">
         <p>Hi My name is <span>Abdessamad Zahidi</span></p>
         <h2>I'm Learning To Create Engaging Websites</h2>
         <p>I'm learning HTML, CSS, Javascript & React</p>
@@ -83,7 +84,7 @@
     <section class="projects" id="projects">
       <div class="projects__container">
         <h2>Projects I'm proud of</h2>
-        <div class="projects__topgrid">
+        <div class="projects__topgrid hidden">
           <!-- first project : Dark Mode  -->
           <figure>
             <a href="https://darklightmodeproject.netlify.app/" target="_blank"
@@ -138,7 +139,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="bottomgrid">
+        <div class="bottomgrid hidden">
           <!-- Video player project figure  -->
           <figure>
             <a href="https://videoplayer-js-css.netlify.app/" target="_blank"
@@ -187,7 +188,7 @@
       </div>
     </section>
     <!-- ---------------------------- Contact Section --------------------------------------- -->
-    <section class="contact" id="contact">
+    <section class="contact hidden" id="contact">
       <div class="contact__container">
         <h1>Contact Me</h1>
         <p>
@@ -204,7 +205,7 @@
 
     <!--  -----------------------------------FOOTER  ---------------------------------------->
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="footer__container">
         <h2>Abdessamad Zahidi&middot; Aspiring DEV</h2>
         <ul>
