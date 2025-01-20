@@ -1,12 +1,25 @@
----------- ⚡️ A minimal portfolio project ⚡️ -----------------
-#Technologie :
+⚡️ A minimal portfolio project ⚡️
 
-⚡️ HTML
-⚡️ CSS
+---
 
-#Feature to be added
+## #Technologie :
 
-⚡️ a functioning burger menu
-⚡️ Animations using AOS libary
-⚡️ adding figCaption to bottomGrid in the project section
-⚡️ fixing some responsive issues on small screens
+- ⚡️ HTML
+- ⚡️ CSS
+
+---
+
+## #Feature to be added :
+
+- ⚡️ a functioning burger menu
+- ⚡️ Animations using AOS libary
+- ⚡️ adding figCaption to bottomGrid in the project section
+- ⚡️ fixing some responsive issues on small screens
+
+---
+
+# live site :
+
+---
+
+https://samadzahidi.netlify.app/

@@ -30,6 +30,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -85,4 +86,10 @@ h5 {
   font-size: var(--h5);
 }
 
-// Intro Section
+// Media queries
+
+@media screen and (max-width: 755px) {
+  html {
+    font-size: 50%;
+  }
+}

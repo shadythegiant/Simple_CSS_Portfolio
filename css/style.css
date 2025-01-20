@@ -25,6 +25,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -82,6 +83,11 @@ h5 {
   font-size: var(--h5);
 }
 
+@media screen and (max-width: 755px) {
+  html {
+    font-size: 50%;
+  }
+}
 .intro {
   background-image: url(/img/fem-comet.jpg);
   background-position: 86% 20%;
