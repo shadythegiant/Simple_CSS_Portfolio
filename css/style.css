@@ -457,4 +457,16 @@ h5 {
   transition-delay: 800ms;
 }
 
+.main_project:nth-child(1) {
+  transition-delay: 400ms;
+}
+
+.main_project:nth-child(2) {
+  transition-delay: 600ms;
+}
+
+.main_project:nth-child(3) {
+  transition-delay: 800ms;
+}
+
 /*# sourceMappingURL=style.css.map */
