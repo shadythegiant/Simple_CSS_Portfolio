@@ -88,6 +88,11 @@ h5 {
     font-size: 50%;
   }
 }
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 45%;
+  }
+}
 .intro {
   background-image: url(/img/fem-comet.jpg);
   background-position: 86% 20%;
