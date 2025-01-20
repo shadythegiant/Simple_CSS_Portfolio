@@ -12,11 +12,14 @@
 ## #Feature to be added :
 
 - ⚡️ a functioning burger menu
-- ⚡️ Animations using AOS libary
-- ⚡️ adding figCaption to bottomGrid in the project section
-- ⚡️ fixing some responsive issues on small screens
 
 ---
+
+# added features and fixed bugs
+
+- ⚡️ Animations using AOS libary : added animation using vanilla css and js instead
+- ⚡️ adding figCaption to bottomGrid in the project section : done
+- ⚡️ fixing some responsive issues on small screens
 
 # live site :
 
