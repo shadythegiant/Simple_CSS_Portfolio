@@ -110,6 +110,8 @@
       ul {
         list-style: none;
         display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 0.9rem;
         color: var(--color-Green);
         font-size: 2rem;
@@ -161,11 +163,11 @@
 }
 
 .main_project:nth-child(1) {
-  transition-delay: 900ms;
+  transition-delay: 700ms;
 }
 .main_project:nth-child(2) {
-  transition-delay: 900ms;
+  transition-delay: 700ms;
 }
 .main_project:nth-child(3) {
-  transition-delay: 900ms;
+  transition-delay: 700ms;
 }
