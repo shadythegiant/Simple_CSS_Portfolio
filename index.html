@@ -8,6 +8,26 @@
     <title>My Portfolio</title>
   </head>
   <body>
+    <!-- Navigation overlay  -->
+    <div class="overlay">
+      <button class="closbtn"></button>
+      <ul class="mobile_nav_ul">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact"> Contact</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/abdessamad-zahidi-7537a015b/"
+            target="_blank"
+          >
+            linkedin</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/shadythegiant" target="_blank"> Github</a>
+        </li>
+        <li><a href="#"> Resume</a></li>
+      </ul>
+    </div>
     <!-- -------------------------- Intro section ---------------------------  -->
     <section class="intro">
       <header class="intro__header hidden">
@@ -23,8 +43,8 @@
             </a>
           </h1>
         </div>
-        <button type="button" tabindex="-1" hidden></button>
-        <nav class="intro__header--navlist">
+        <button class="navBtn" type="button" tabindex="-1" hidden></button>
+        <nav class="intro__header--navlist" id="nav">
           <ul>
             <li><a href="#projects"> Projects</a></li>
 

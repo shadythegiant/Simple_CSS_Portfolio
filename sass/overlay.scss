@@ -1,0 +1,115 @@
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: -200%;
+
+  background-color: black;
+  z-index: 100000;
+  transition: all 0.5s ease-in;
+
+  button {
+    display: block;
+    font-size: 3rem;
+    line-height: 1;
+    border: 0;
+    background-color: transparent;
+    color: white;
+
+    &::after {
+      content: "\2716";
+      color: var(--color-Green);
+      position: absolute;
+      top: 4rem;
+      right: 2rem;
+      font-size: 3rem;
+      cursor: pointer;
+      z-index: 1000000000;
+    }
+  }
+
+  ul {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+
+    li {
+      height: 20%;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: var(--mono);
+        font-size: 2rem;
+        color: white;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+    li:nth-of-type(1) {
+      background-color: var(--navColor1);
+    }
+
+    li:nth-of-type(2) {
+      background-color: var(--navColor2);
+    }
+
+    li:nth-of-type(3) {
+      background-color: var(--navColor3);
+    }
+
+    li:nth-of-type(4) {
+      background-color: var(--navColor4);
+    }
+
+    li:nth-of-type(5) {
+      background-color: var(--navColor5);
+    }
+  }
+}
+
+// ------------------ Animations -------------------
+/* Slide in animation with delay for each */
+.slide-in-1 {
+  animation: slide-in 0.4s linear 0.2s both;
+}
+
+.slide-in-2 {
+  animation: slide-in 0.4s linear 0.4s both;
+}
+
+.slide-in-3 {
+  animation: slide-in 0.4s linear 0.6s both;
+}
+
+.slide-in-4 {
+  animation: slide-in 0.4s linear 0.8s both;
+}
+
+.slide-in-5 {
+  animation: slide-in 0.4s linear 1s both;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}

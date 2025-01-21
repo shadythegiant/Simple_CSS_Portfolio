@@ -23,6 +23,13 @@
   --h5: calc(var(--h6) * var(--scale));
   --h6: var(--base-size);
 
+  //  Mobile Navigation colors
+  --navColor1: #21292c;
+  --navColor2: #aa3e39;
+  --navColor3: #aa6e39;
+  --navColor4: #236267;
+  --navColor5: #2c8437;
+
   --text: 2rem;
   --small: calc(var(var(--base-size)) / var(var(--scale)));
 }

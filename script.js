@@ -20,3 +20,33 @@ const addingShowClass = (entries) => {
 const observer = new IntersectionObserver(addingShowClass, options);
 
 hiddenElements.forEach((el) => observer.observe(el));
+
+// Mobile Navigation Logic
+
+const navButton = document.querySelector(".navBtn");
+const overlay = document.querySelector(".overlay");
+const closeBtn = document.querySelector(".closbtn");
+const list = document.querySelector(".mobile_nav_ul");
+const navElements = Array.from(list.children);
+
+// functions
+
+function removeOverlay() {
+  overlay.style.left = -200 + "%";
+}
+
+function addOverlay() {
+  overlay.style.left = 0;
+  navElements.forEach((el, i) => {
+    el.classList.add(`slide-in-${i}`);
+  });
+}
+
+// Event Listeners
+navElements.forEach((el) => {
+  el.addEventListener("click", removeOverlay);
+});
+
+navButton.addEventListener("click", addOverlay);
+
+closeBtn.addEventListener("click", removeOverlay);
