@@ -465,15 +465,15 @@ h5 {
 }
 
 .main_project:nth-child(1) {
-  transition-delay: 400ms;
+  transition-delay: 900ms;
 }
 
 .main_project:nth-child(2) {
-  transition-delay: 600ms;
+  transition-delay: 900ms;
 }
 
 .main_project:nth-child(3) {
-  transition-delay: 800ms;
+  transition-delay: 900ms;
 }
 
 /*# sourceMappingURL=style.css.map */
