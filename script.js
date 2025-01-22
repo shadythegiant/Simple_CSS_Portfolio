@@ -33,6 +33,9 @@ const navElements = Array.from(list.children);
 
 function removeOverlay() {
   overlay.style.left = -200 + "%";
+  navElements.forEach((el, i) => {
+    el.classList.remove(`slide-in-${i}`);
+  });
 }
 
 function addOverlay() {
