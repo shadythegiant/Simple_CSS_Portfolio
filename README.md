@@ -49,8 +49,6 @@ Include links to your GitHub, LinkedIn, or other social media profiles.
 
 Frontend Masters: For providing the course material and guidance.
 
-Instructor: [Instructor Name] for teaching the course and inspiring this project.
-
 Icons: Font Awesome for the icons used in the project.
 
 Fonts: Google Fonts for the typography.
